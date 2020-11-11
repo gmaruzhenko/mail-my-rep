@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="min-h-screen w-full bg-gray-100 pt-32">
+        <div class="container mx-auto">
+            <form class="flex flex-col bg-white p-8 md:p-16 shadow-lg rounded" action="/submitted" method="POST">
+                <h1 class="text-2xl font-semibold text-center mb-10">
+                    Let your representatives know about the issues that matter to you
+                </h1>
+                <label class="mb-1 uppercase font-semibold text-sm">Subject</label>
+                <input type="text" name="subject" class="border border-gray-400 rounded p-1" />
+
+                <label class="mb-1 uppercase font-semibold text-sm">Name</label>
+                <input type="text" name="name" class="border border-gray-400 rounded p-1" />
+
+                <label class="mt-4 mb-1  uppercase font-semibold text-sm">Address</label>
+                <input type="text" name="address" class="border border-gray-400 rounded p-1" />
+
+                <label class="mt-4 mb-1  uppercase font-semibold text-sm">Message</label>
+                <textarea name="message" class="border border-gray-400 rounded p-1"></textarea>
+
+                <div class="flex flex-row justify-center mt-16">
+                    <button class="px-4 py-2 border-gray-800 border-2 font-semibold w-auto rounded">Submit ->
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

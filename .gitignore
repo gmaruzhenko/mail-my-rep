@@ -1,0 +1,7 @@
+venv
+config.py
+gmailAPI
+credentials.json
+token.pickle
+*.pyc
+.DS_Store

@@ -1,8 +1,8 @@
-# Hack13-44-SpamBot
-Based on electoral district, automatically emails your elected representatives
+# MailMyReps
+Based on your electoral district, automatically emails your elected representatives
 
 ## Background
-[represent.opennorth.ca](https://represent.opennorth.ca/demo/) provides name and contact information for elected officials in Canada based on your location. Since this already exists, we can use their API to easily get this info instead of searching for it ourselves. Initial researched showed that nothing on this level (of ease of use) exists for the USA, so we will just focus on Canada.
+[represent.opennorth.ca](https://represent.opennorth.ca/demo/) provides name and contact information for elected officials in Canada based on your location. Since this already exists, we can use their API to easily get this info instead of searching for it ourselves. Initial research showed that nothing on this level (of ease of use) exists for the USA, so we will just focus on Canada.
 
 ## Initial Goal
 Given a text file conataining the email body and an address/geolocation, our hack will compile a list of elected officials and send out the same email (individually addressed to each representative). It will be simplest to call the program from the command line.
